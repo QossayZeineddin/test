@@ -1,0 +1,45 @@
+.test-tabs{
+    margin: 60px auto;
+    width: 850px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px 3px 0px 0px;
+    background: #eee;
+    
+}
+ul li.inactive{
+    background: #ccc;
+}
+
+.test-tabs div{
+    background: #eee;
+    padding: 10px;
+    min-height:550px ;
+}
+.test-tabs div:not(:first-of-type){
+    display: none;
+}
+
+.mp4{
+    width: 800px;
+    height:500px ;
+}
+.mp3{
+    width: 700px;
+    height:250px ;
+}
+.img{
+    min-width: 800px;
+    min-height:500px ;
+}
+body{
+    background-color: antiquewhite;
+}
